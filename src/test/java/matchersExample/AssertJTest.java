@@ -31,12 +31,12 @@ public class AssertJTest {
     }
     @Test
     public void TestHalfFraction() {
-        assertThat(Fraction.of(1,2))
+        assertThat(Fraction.of(2,1))
                 .isEqualTo(Fraction.HALF);
     }
     @Test
     public void TestOneThirdFraction() {
-        assertThat(Fraction.of(1,3))
+        assertThat(Fraction.of(3,1))
                 .isEqualTo(Fraction.ONE_THIRD);
     }
     @Test

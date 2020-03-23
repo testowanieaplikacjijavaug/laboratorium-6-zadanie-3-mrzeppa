@@ -31,12 +31,12 @@ public class HamcrestTest {
 
     @Test
     public void TestHalfFraction() {
-        assertThat(Fraction.of(1, 2), equalTo(Fraction.HALF));
+        assertThat(Fraction.of(2, 1), equalTo(Fraction.HALF));
     }
 
     @Test
     public void TestOneThirdFraction() {
-        assertThat(Fraction.of(1, 3).hashCode(), equalTo(Fraction.ONE_THIRD.hashCode()));
+        assertThat(Fraction.of(3, 1).hashCode(), equalTo(Fraction.ONE_THIRD.hashCode()));
     }
 
     @Test
